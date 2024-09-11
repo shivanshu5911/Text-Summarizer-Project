@@ -29,6 +29,7 @@ list_of_files = [
     
 ]
 
+
 for filepath in list_of_files:
     filepath = Path(filepath) #will detect the Operating system and then convert the path into the suitable one
     filedir, filename = os.path.split(filepath)
